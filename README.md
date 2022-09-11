@@ -1,6 +1,6 @@
 # Licence-plate-recognisation-system
 A possible study field in smart cities and the Internet of Things is licence plate realisation or identification using image processing techniques. The use of automated systems to maintain vehicle information for various purposes is required due to the exponential growth in the number of cars.
-#Implementation:
+# Implementation:
 An effective approach for recognising Indian car number plates has been developed in the proposed algorithm. We can manage loud, dimly lit, crooked, and number plates with unusual fonts. In the pre-processing stage of this work, several image processing techniques are used, including morphological transformation, Gaussian smoothing, Gaussian thresholding, and the Sobel edge detection method. Following number plate segmentation and border-following contour application, contours are then filtered based on character dimensions and spatial localization. Optical Character Recognition (OCR) is the last step we take to identify the retrieved characters. The database is used to store the identified texts after which they are sorted and made searchable.
 
 
@@ -21,7 +21,7 @@ Optical character recognition (OCR)
 
 Syntactical /Geometrical analysis [2]
 
-#METHODOLOGY The system is divided into two parts:
+# METHODOLOGY The system is divided into two parts:
 
 Entrance Gate.
 
@@ -43,7 +43,7 @@ PI CAMERA
 
 COMPUTER
 
-#CIRCUIT EXPLANATIONS Our project has some parts which are:
+# CIRCUIT EXPLANATIONS Our project has some parts which are:
 
 INDICATOR
 
@@ -61,7 +61,7 @@ Motor section
 
 Display section
 
-#Program is written using Raspberry pi microcontrooler
+# Program is written using Raspberry pi microcontrooler
 
 Start
 
@@ -110,7 +110,7 @@ Clear LCD display
 
 End
 
-#Flowchart of License plate recognition steps are:
+# Flowchart of License plate recognition steps are:
 
 Open serial port and scan for data.
 
